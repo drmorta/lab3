@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\NewsModel;
+use CodeIgniter\Exceptions\PageNotFoundException;
 
 class News extends BaseController
 {
